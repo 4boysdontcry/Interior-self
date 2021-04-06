@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+/* font-family: 'Noto Sans JP', sans-serif; */
+
+
+html, body {font-size: 14px; color: #121212; font-family: 'Noto Sans JP', sans-serif;}
+.whole-wrapper {width: 100%;}
+
+.title {font-size: 3em; margin: 7% 0 4% 0; font-weight: bold; color: #f44336;}
+.underline {border: 5px solid #f44336; border-radius: 5px; width: 10%; margin-bottom: 4%;}
+.desc-wrap {font-size: 1.125em; margin-bottom: 1em;}
+.desc-wrap > h4 {margin-bottom: 4%;}
+.desc-wrap > p {line-height: 1.5; text-align: justify;}
+
+
+/* .header-wrapper */
+.header-wrapper {float: left; width: 20%; height: 100vh; position: fixed; background-color: #f44336; padding: 7em 2em; text-align: left; color: #f9f9f9; font-weight: bold;}
+.header-wrapper > .logo {}
+.header-wrapper > .logo > a {font-size: 2em; margin-bottom: 2em;}
+.header-wrapper > .navi-wrapper {width: 100%;}
+.header-wrapper > .navi-wrapper > .navi {width: 100%;}
+.header-wrapper > .navi-wrapper > .navi > a {font-size: 1.325em; width: 100%; padding: .625em .25em;}
+.header-wrapper > .navi-wrapper > .navi > a:hover {background-color: #f9f9f9; color: #121212;}
+
+/* mo-header */
+.moh-wrapper {display: none; width: 100%; position: fixed; z-index: 9; background-color: #f44336; padding: .5em 1em; font-size: 1.5em; color: #f9f9f9;}
+.moh-wrapper >  .bars {float: left; cursor: pointer; margin-right: 2em; padding: .5em;}
+.moh-wrapper >  .bars:hover {background-color: #ccc;}
+.moh-wrapper > .logo {padding: .5em; display: inline-block;}
+
+.moh-nav {background-color: rgba(0, 0, 0, .3); width: 100%; height: 100vh; position: fixed; z-index: 10; display: none;}
+.mohnavi-wrapper {width: 60%; height: 100vh; text-align: left; color: #f9f9f9; font-weight: bold; background-color: #f44336;}
+.mohnavi-wrapper > .moh-close {font-size: 1.325em; width: 100%; padding: .625em .25em; cursor: pointer; text-align: center;}
+.mohnavi-wrapper > .moh-close:hover {background-color: #ccc; color: #121212;}
+.mohnavi-wrapper > .moh-logo {font-size: 2em; margin:2em 0 2em 2em;}
+.mohnavi-wrapper > .mohnavi-wrap {width: 100%; margin: 0 2em 0 2em;}
+.mohnavi-wrapper > .mohnavi-wrap > .mohnavi {width: 80%;}
+.mohnavi-wrapper > .mohnavi-wrap > .mohnavi > a {font-size: 1.325em; width: 100%; padding: .625em .25em;}
+.mohnavi-wrapper > .mohnavi-wrap > .mohnavi > a:hover {background-color: #f9f9f9; color: #121212;}
+
+
+/*********************************************************************************************************/
+
+/* main-wrapper */
+.main-wrapper {float: right; width: 80%; background-color: #f9f9f9;}
+.wrapper {padding: 0 3%;}
+.subject {font-size: 4em; font-weight: bold; padding-top: 1.8em;}
+
+/* sc-wrapper */
+.sc-wrapper {width: 100%; margin-bottom: 8em;}
+.sc-wrapper > .img-wrapper {width: 101%;}
+.sc-wrapper > .img-wrapper > .img-wrap {float: left; width: 49%; margin: 0 1% 1% 0; overflow: hidden;}
+.sc-wrapper > .img-wrapper > .img-wrap > img {width: 100%; opacity: .7; transition: all .3s;}
+.sc-wrapper > .img-wrapper > .img-wrap > img:hover {opacity: 1; transform: scale(1.2);}
+
+
+/* serv-wrapper */
+.serv-wrapper {margin-bottom: 8em;}
+
+
+/* designer-wrapper */
+.designer-wrapper {}
+.designer-wrapper > .info-wrapper {}
+.designer-wrapper > .info-wrapper > .info-title {font-size: 1.25em; font-weight: bold; margin: 1em 0 1em 0;}
+.designer-wrapper > .info-wrapper > .info-wrap {width: 101%;}
+.designer-wrapper > .info-wrapper > .info-wrap > .info {width: 32.3333%; margin-right: 1%; float: left; background-color: #eee;}
+.designer-wrapper > .info-wrapper > .info-wrap > .info > img {width: 100%; margin-bottom: .625em;}
+.designer-wrapper > .info-wrapper > .info-wrap > .info > .desc-wrap {padding: 1em; text-align: left;}
+.designer-wrapper > .info-wrapper > .info-wrap > .info > .desc-wrap > h5 {font-size: 2em; margin-bottom: .625em;}
+.designer-wrapper > .info-wrapper > .info-wrap > .info > .desc-wrap > h6 {color: #555; margin-bottom: .625em;}
+.designer-wrapper > .info-wrapper > .info-wrap > .info > .desc-wrap > p {text-align: left;  margin-bottom: .625em;}
+
+
+/* package-wrapper */
+.pack-wrapper {}
+.pack-wrapper > p {margin-bottom: 2em;}
+.pack-wrapper > .pack-wrap {width: 102%;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap {float: left; width: 48%; margin-right: 2%; text-align: center;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > .basic-title {background-color: #555; color: #f9f9f9;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > h5 {background-color: #f44336; color: #f9f9f9; padding: 1.5em 3em; font-size: 2em;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > p {padding: 1.5em 3em; border-bottom: 1px solid #ccc; background-color: #eee;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > p:last-child {border-bottom: none;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > p.price {font-size: 2em; border-bottom: none; padding: 1.5em 3em 0 3em;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > P > button {padding: 1em 2em; background-color: #f44336; color: #f9f9f9;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > P > button:hover {background-color: #121212; color: #f9f9f9;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > P > button.bt-basic {padding: 1em 2em; background-color: #f9f9f9; color: #121212;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > P > button.bt-basic:hover {background-color: #121212; color: #f9f9f9;}
+
+
+/* contact-wrapper */
+.contact-wrapper {}
+.contact-wrapper > .form-wrap {}
+.contact-wrapper > .form-wrap > label {width: 100%; margin: 1em 0 .5em 0; font-size: 1.25em;}
+.contact-wrapper > .form-wrap > input {width: 100%; padding: 1em 2em; border: 1px solid #ccc;}
+.contact-wrapper > .form-wrap > button {width: 100%; padding: 1em 2em; background-color: #f44336; color: #f9f9f9; font-size: 1.25em; margin: 1.5em 0 5em 0;}
+
+
+/* footer-wrap */
+.footer-wrapper {width: 100%; background-color: #ccc; padding: 5em;}
+.footer-wrapper > .footer-wrap {text-align: right;}
+.footer-wrapper > .footer-wrap > a {text-decoration: underline;}
+.footer-wrapper > .footer-wrap > a:hover {color: #777;}
+
+
+/******************* modal-wrapper *********************/
+.modal-wrapper {position: fixed; z-index:10; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, .95); top:0; left: 0; text-align: center; padding: 10vh 2% 10vh 2%; color: #f9f9f9; display: none;}
+.modal-wrapper > .modal-wrap {display: inline-block; transition: all .5s;}
+.modal-wrapper > .modal-wrap > .modal-img {margin-bottom: 1em;}
+.modal-wrapper > .modal-close {position: absolute; top: 0; right: 0; width: 50px; height: 50px; line-height: 50px; cursor: pointer;}
+.modal-wrapper > .modal-close:hover {background-color: #ccc; color: #111;}
+
+
+
+
+
+
+/* response */
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+  
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 786px) {
+  .main-wrapper {width: 100%;}
+  .moh-wrapper {display: block;}
+  .header-wrapper {display: none;}
+  .moh-nav.active {display: block;}
+  .subject {}
+  .sc-wrapper > .img-wrapper > .img-wrap {width: 100%; }
+  .designer-wrapper > .info-wrapper > .info-wrap > .info {width: 100%; margin-bottom: 1em;}
+  .pack-wrapper > .pack-wrap > .pack-innerwrap {width: 100%; margin-bottom: 1em;}
+}
+
+@media (max-width: 576px) {
+
+}
