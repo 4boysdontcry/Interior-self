@@ -81,7 +81,8 @@ html, body {font-size: 14px; color: #121212; font-family: 'Noto Sans JP', sans-s
 .pack-wrapper > .pack-wrap > .pack-innerwrap > h5 {background-color: #f44336; color: #f9f9f9; padding: 1.5em 3em; font-size: 2em;}
 .pack-wrapper > .pack-wrap > .pack-innerwrap > p {padding: 1.5em 3em; border-bottom: 1px solid #ccc; background-color: #eee;}
 .pack-wrapper > .pack-wrap > .pack-innerwrap > p:last-child {border-bottom: none;}
-.pack-wrapper > .pack-wrap > .pack-innerwrap > p.price {font-size: 2em; border-bottom: none; padding: 1.5em 3em 0 3em;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > p.price {font-size: 2em;}
+.pack-wrapper > .pack-wrap > .pack-innerwrap > p.price span {font-size: .525em; color: #555;}
 .pack-wrapper > .pack-wrap > .pack-innerwrap > P > button {padding: 1em 2em; background-color: #f44336; color: #f9f9f9;}
 .pack-wrapper > .pack-wrap > .pack-innerwrap > P > button:hover {background-color: #121212; color: #f9f9f9;}
 .pack-wrapper > .pack-wrap > .pack-innerwrap > P > button.bt-basic {padding: 1em 2em; background-color: #f9f9f9; color: #121212;}
